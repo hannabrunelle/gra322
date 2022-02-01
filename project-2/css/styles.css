@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 14 px;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: 2px;
     margin-bottom: 1rem;
@@ -72,4 +72,16 @@ figcaption {
         grid-gap: 3rem;
         grid-template-columns: 1fr 1fr;
     }
+}
+
+.sample-spreads {
+    background-color: #ffffff;
+    color: var(--gray-dark);
+    padding: 4rem 0;
+}
+
+footer {
+    background-color: var(--gray-light);
+    color: var(--gray-dark);
+    padding: 1rem 0 0 0;
 }
