@@ -1,0 +1,110 @@
+html {
+    --gray: #444444;
+    --gray-dark: #333333;
+    --gray-light: #f2f2f2;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    
+}
+
+p {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
+.grid > * {
+    grid-column: main;
+}
+
+header  {
+    background-color: #F07300;
+}
+
+.overview {
+    background-color: var(--gray);
+    color: #ffffff;
+    padding: 4rem 0;
+}
+
+figure {
+    margin-top: 2rem;
+}
+
+figure img {
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.sample {
+    padding: 5rem 0;
+    color: var(--gray-dark)
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: var(--gray-light);
+    padding: 1.5rem 0;
+}
+
+@media screen and (min-width: 800px) {
+    .two-column {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+.dos-column {
+    display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+}
+
+.five-column {
+    display:grid;
+    grid-gap: 1rem;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+}
+
+.hamburger-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
