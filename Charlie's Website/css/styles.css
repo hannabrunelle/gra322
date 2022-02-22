@@ -5,8 +5,7 @@ html {
 }
 
 body {
-    font-family: 'Libre Franklin', sans-serif;
-    font-weight: 300;
+
 }
 
 h1 {
@@ -18,20 +17,18 @@ h1 {
 }
 
 h2 {
-    font-size: 14px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 16px;
     font-weight: 500;
-    letter-spacing: 2px;
     margin-bottom: 1rem;
-    margin-left: 2rem;
-    text-transform: uppercase;
     
 }
 
 p {
-    letter-spacing: 1px;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 1rem;
-    margin-left: 2rem;
 }
 
 .grid {
@@ -100,6 +97,7 @@ footer {
     display:grid;
     grid-gap: 1rem;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    margin-top: 2rem;
 }
 
 .hamburger-icon {
@@ -107,4 +105,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
+}
+
+.first-column {
+    margin-left: 2rem;
 }
