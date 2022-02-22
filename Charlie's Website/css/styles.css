@@ -1,8 +1,3 @@
-html {
-    --gray: #444444;
-    --gray-dark: #333333;
-    --gray-light: #f2f2f2;
-}
 
 
 h1 {
@@ -26,45 +21,12 @@ p {
     margin-bottom: 1rem;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
-}
-
-.grid > * {
-    grid-column: main;
-}
 
 header  {
     background-color: #F07300;
 }
 
-.overview {
-    background-color: var(--gray);
-    color: #ffffff;
-    padding: 4rem 0;
-}
 
-
-figcaption {
-    font-size: 13px;
-    font-style: italic;
-    letter-spacing: 1px;
-}
-
-.sample {
-    padding: 5rem 0;
-    color: var(--gray-dark)
-}
-
-footer p {
-    margin-bottom: 0;
-}
-
-footer {
-    background-color: var(--gray-light);
-    padding: 1.5rem 0;
-}
 
 @media screen and (min-width: 800px) {
     .two-column {
@@ -75,11 +37,6 @@ footer {
 }
 
 
-.dos-column {
-    display: grid;
-        grid-gap: 1rem;
-        grid-template-columns: 1fr 1fr;
-}
 
 .five-column {
     display: grid;
