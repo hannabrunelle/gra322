@@ -9,11 +9,10 @@ body {
 }
 
 h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
     font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 1px;
-
-    color: #ffffff;
+    margin-bottom: 3rem;
 }
 
 h2 {
@@ -50,13 +49,6 @@ header  {
     padding: 4rem 0;
 }
 
-figure {
-    margin-top: 2rem;
-}
-
-figure img {
-    margin-bottom: 1rem;
-}
 
 figcaption {
     font-size: 13px;
@@ -109,4 +101,10 @@ footer {
 
 .first-column {
     margin-left: 2rem;
+}
+
+.full-menu {
+    color: #F07300;
+    text-align: center;
+    margin-top: 3rem;
 }
