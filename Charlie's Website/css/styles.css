@@ -12,7 +12,6 @@ h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 28px;
     font-weight: 300;
-    margin-bottom: 3rem;
 }
 
 h2 {
@@ -90,6 +89,8 @@ footer {
     grid-gap: 1rem;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
     margin-top: 2rem;
+    margin-left: 2rem;
+
 }
 
 .hamburger-icon {
@@ -99,12 +100,24 @@ footer {
     padding: 1rem;
 }
 
-.first-column {
-    margin-left: 2rem;
-}
 
 .full-menu {
     color: #F07300;
     text-align: center;
     margin-top: 3rem;
+}
+
+.left-aligned-headers {
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.right-aligned-headers {
+    text-align: right;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+.full-menu {
+    margin-bottom: 10rem;
 }
