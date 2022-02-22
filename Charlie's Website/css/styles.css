@@ -58,7 +58,7 @@ header  {
 .full-menu {
     color: #F07300;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
 .left-aligned-headers {
@@ -88,4 +88,14 @@ header  {
     margin-right: 0.8rem; 
 }
 
+.about-us-info {
+    margin-left: 2rem;
+    margin-right: 0.8rem;
+    margin-top: 2rem;
+}
+
+.charlies-cafe-image {
+    margin-left: 1.4rem;
+    margin-right: 0.8rem;
+}
 
