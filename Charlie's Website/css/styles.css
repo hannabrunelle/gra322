@@ -26,7 +26,11 @@ header  {
     background-color: #F07300;
 }
 
-
+.header-image{
+    background-image: url();
+    background-size: cover;
+    height: 100vh;
+}
 
 @media screen and (min-width: 800px) {
     .two-column {
@@ -99,3 +103,37 @@ header  {
     margin-right: 0.8rem;
 }
 
+td {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+tr {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+
+@media screen and (min-width: 800px) {
+    section {
+      display: grid;
+      gap: 3rem;
+      grid-template-columns: 1fr 1fr;
+    }
+    .table-1 {
+        padding: 3rem;
+    }
+    .table-2 {
+        padding: 3rem;
+    }
+    .table-3 {
+        padding: 3rem;
+    }
+    .table-4 {
+        padding: 3rem;
+    }
