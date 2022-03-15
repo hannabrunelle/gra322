@@ -27,8 +27,7 @@ header  {
 }
 
 .header-image{
-    background-image: url();
-    background-size: cover;
+    size: cover;
     height: 100vh;
 }
 
@@ -137,3 +136,4 @@ tr {
     .table-4 {
         padding: 3rem;
     }
+}
