@@ -1,0 +1,31 @@
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+img {
+    padding: 1rem;
+}
