@@ -72,6 +72,12 @@ a:hover { font-family: 'Source Sans Pro', sans-serif;
     h3 {
         font-size: 30px;
     }
+
+    .two-column {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -90,3 +96,4 @@ a:hover { font-family: 'Source Sans Pro', sans-serif;
     }
     
 }
+
